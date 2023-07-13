@@ -1,0 +1,70 @@
+
+
+・View: Toggle Primary Side Bar Visibility
+{
+  "key": "ctrl+s",
+  "command": "workbench.action.toggleSidebarVisibility"
+}
+
+・View: Show Explorer
+{
+  "key": "ctrl+e",
+  "command": "workbench.view.explorer",
+  "when": "viewContainer.workbench.view.explorer.enabled"
+}
+
+・View: Show Source Control
+{
+  "key": "ctrl+g",
+  "command": "workbench.view.scm",
+  "when": "workbench.scm.active"
+}
+
+
+・View: Toggle Zen Mode
+{
+  "key": "ctrl+cmd+z",
+  "command": "workbench.action.toggleZenMode"
+}
+
+
+・Terminal: Kill All Terminals
+{
+  "key": "ctrl+cmd+k",
+  "command": "workbench.action.terminal.killAll"
+}
+
+・Terminal: Focus Previous Terminal Group
+{
+  "key": "ctrl+cmd+left",
+  "command": "workbench.action.terminal.focusPrevious",
+  "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+}
+
+・Terminal: Focus Next Terminal Group
+{
+  "key": "ctrl+cmd+right",
+  "command": "workbench.action.terminal.focusNext",
+  "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+}
+
+・Terminal: Kill the Active Terminal Instance
+{
+  "key": "ctrl+cmd+down",
+  "command": "workbench.action.terminal.kill"
+}
+
+・Terminal: Create New Terminal
+{
+  "key": "ctrl+cmd+up",
+  "command": "workbench.action.terminal.new",
+  "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+}
+
+
+・View: Toggle Terminal
+{
+  "key": "ctrl+cmd+[BracketLeft]",
+  "command": "workbench.action.terminal.toggleTerminal",
+  "when": "terminal.active"
+}
