@@ -2,24 +2,23 @@
 
 ・View: Toggle Primary Side Bar Visibility
 {
-  "key": "ctrl+s",
+  "key": "ctrl+cmd+s",
   "command": "workbench.action.toggleSidebarVisibility"
 }
 
 ・View: Show Explorer
 {
-  "key": "ctrl+e",
+  "key": "ctrl+cmd+e",
   "command": "workbench.view.explorer",
   "when": "viewContainer.workbench.view.explorer.enabled"
 }
 
 ・View: Show Source Control
 {
-  "key": "ctrl+g",
+  "key": "ctrl+cmd+g",
   "command": "workbench.view.scm",
   "when": "workbench.scm.active"
 }
-
 
 ・View: Toggle Zen Mode
 {
